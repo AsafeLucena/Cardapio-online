@@ -371,6 +371,7 @@ margin-top: 20px;
 .depoimentos{
    padding-top: 100px;
    padding-bottom: 150px;
+   margin-bottom: 100px;
 }
 
 .background-depoimentos{
@@ -409,6 +410,7 @@ margin-top: 20px;
    position: absolute;
    right: 0px;
    left: 70px;
+
    
 }
 
@@ -472,8 +474,32 @@ margin-top: 20px;
    align-items: end;
 }
 
+.reservas{
+   padding-top: 100px;
+   padding-bottom: 150px;
+   
+}
 
+.card-secundary{
+   background-color: var(--color-secundary);
+   border-radius: 70px;
+   padding: 90px;
 
+}
+
+.card-reserva{
+   height: 320px;
+   width: 320px;
+   border-radius: 120px;
+   background-color: var(--color-white);
+   position: absolute;
+   right: 0;
+   top: -25px;
+}
+
+.reserva .img-banner img{
+   width: 100%;
+}
  
                                 
 
