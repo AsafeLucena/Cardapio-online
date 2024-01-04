@@ -12,7 +12,7 @@
 --color-text: #4f4f4f;
 --color-text-out: #90908e;
 --color-primary: #ffbf00;
---color-secundary: #fff2cc;
+--color-secundary: #e9e2c7;
 --color-white: #ffffff;
 --color-red: #e74c3c;
 --color-green: #2ecc71;
@@ -51,6 +51,7 @@ color: var(--color-primary);
 .navbar-brand{
     margin-left: -30px;
 }
+
  .btn-white{
     background-color: var(--color-white) !important;
     color: var(--color-black) !important;
@@ -59,13 +60,17 @@ color: var(--color-primary);
     font-size: 20px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3) !important;
     
+    
  }
+
+ 
  .btn-white.active, .btn-white:hover{
    background-color: var(--color-primary)!important;
  }
 
  .btn-icon{
     padding-right: 75px;
+    
  }
 
  .btn-icon .icon{
@@ -75,13 +80,15 @@ color: var(--color-primary);
     width: 45px;
     height: 45px;
     position: absolute;
-    right: 10px;
+    right: 20px;
     margin-top: -8px;
     border-radius: 15px;
     text-align: center;
-    padding-top: 6px ;
+    padding-top: 6px;
+    
+    
+}
 
- }
 
  .banner{
     padding-top: 110px;
@@ -125,7 +132,7 @@ color: var(--color-primary);
    border-radius: 20px;
    height: 63px;
    width: 210px;
-   padding: 15px 25px;
+   padding: 15px 20px;
    font-size: 16px;
    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3) !important;
    
@@ -163,13 +170,24 @@ margin-top: 5px;
    padding-top: 9px 15px !important;
    border-radius: 15px !important;
    font-size: 18px;
-
+   width: 50px;
+   height: 50px;
  }
  .btn-social{
-   display: inline;
+   display: inline-flex;
    width: 60px;
+   height: 55px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   
    
 }
+.icones-sociais{
+  position: absolute;
+  
+}
+
 
 .card-banner{
    height: 450px;
@@ -484,6 +502,7 @@ margin-top: 20px;
    background-color: var(--color-secundary);
    border-radius: 70px;
    padding: 90px;
+   margin-bottom: 80px;
 
 }
 
@@ -495,12 +514,52 @@ margin-top: 20px;
    position: absolute;
    right: 0;
    top: -25px;
+   
 }
 
 .reserva .img-banner img{
    width: 100%;
 }
- 
+
+.footer {
+   background-color: var(--color-secundary);
+   color: var(--color-black);
+   
+  
+}
+
+.logo-footer {
+   width: 150px;
+
+}
+
+.container-logo-footer, .container-texto-footer, .container-redes-footer{
+display: flex;
+align-items: center;
+}
+
+.container-logo-footer {
+   justify-content: start;
+}
+
+.container-texto-footer {
+   justify-content: center;
+}
+
+.container-redes-footer {
+    justify-content: end;
+}
+
+.container-redes-footer .btn-social{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 4px;
+}
+
+
+
+
                                 
 
  
