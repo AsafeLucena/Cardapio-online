@@ -720,3 +720,31 @@ align-items: center;
    color: var(--color-primary);
    font-size: 24px;
 }
+
+
+.form-control {
+   background-color: var(--color-white);
+   color: var(--color-black) !important;
+   border-radius: 20px;
+   padding: 15px 25px;
+   font-size: 20px;
+   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3);
+   border: none !important;
+   
+}
+
+.select.form-control {
+   height: 60px !important;
+}
+
+.container-cep .form-control {
+   padding-right: 75px;
+}
+
+.container-cep .btn {
+   position: absolute;
+   right: 14px;
+   top: 30px;
+   
+
+}
